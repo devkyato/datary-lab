@@ -168,8 +168,7 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
     except FileExistsError as error:
         target = terminal_safe(error)
         print(
-            f"datary: error: path already exists: {target} "
-            "(pass --overwrite to replace it)",
+            f"datary: error: path already exists: {target} (pass --overwrite to replace it)",
             file=sys.stderr,
         )
         return 2
