@@ -85,6 +85,6 @@ These checks detect accidental changes; they do not prove cryptographic authenti
 
 ## Plots
 
-- [plot\-value\.png](../plots/plot-value.png)
+- [plot\-value\.png](../sessions/noisy-sensor-example/plots/plot-value.png)
   - Downsample: algorithm=`extrema-preserving-buckets`; applied=`False`; original=`101`; plotted=`101`; max_points=`5000`; preserved_extrema=`True`
   - Policy: keep first, last, local min, and local max per bucket
